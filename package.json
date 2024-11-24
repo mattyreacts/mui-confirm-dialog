@@ -1,0 +1,53 @@
+{
+  "name": "@mattyreacts/mui-confirm-dialog",
+  "version": "1.0.0",
+  "description": "An easy to use confirm dialog using @mui/material/Dialog using Promises for confirm or cancel",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattyreacts/mui-confirm-dialog.git"
+  },
+  "keywords": [
+    "MUI",
+    "ConfirmDialog",
+    "dialog"
+  ],
+  "author": "Mathew Crothers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattyreacts/mui-confirm-dialog/issues"
+  },
+  "homepage": "https://github.com/mattyreacts/mui-confirm-dialog#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "@mui/material": "^6.1.8",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "events": "^3.3.0"
+  }
+}
